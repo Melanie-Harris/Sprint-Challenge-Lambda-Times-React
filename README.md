@@ -30,16 +30,23 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
-- [ ] Describe a life-cycle event in React?
-- [ ] Explain the details of a Higher Order Component?
-- [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+- [x] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+        PropTypes explicitly tell your react app what type of data format each prop will be in, to prevent a prop from being set to the wrong kind of type and causing errors. For example, if your component requires a certain prop to be in the form of a string to work properly, it will explictly set the proptype of that prop to string.
+
+- [x] Describe a life-cycle event in React?
+        A life-cycle event is one of three main phases in the life of a React app,each with its own purpose. This allows the app to update components on the fly, without needing to reload the entire site, or cause memory leaks. An example of a specific event would be ComponentDidMount().
+
+- [x] Explain the details of a Higher Order Component?
+        A HOC is a more generalized component that takes in a component as a parameter, and then creates a new, more specific component.
+
+- [x] What are three different ways to style components in React? Explain some of the benefits of each.
+        ReactStrap, Styled-Components, or vanilla CSS/LESS.
 
 ## Project Setup
 
 Follow these steps to set up your project:
 
-- [ ] Create a forked copy of this project.
+- [x] Create a forked copy of this project.
 - [ ] Add your project manager as collaborator on Github.
 - [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
