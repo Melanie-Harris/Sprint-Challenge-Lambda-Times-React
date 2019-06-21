@@ -53,14 +53,16 @@ body {
   width: 100%;
 }
 
-.App {
+/*! Styles added to TopBar.js !*/
+
+/* .App {
   display: flex;
   align-items: center;
   flex-direction: column;
   background-color: #f1f1f1;
   color: #333;
   font-family: 'PT Sans', sans-serif;
-}
+} */
 
 /*! Styles added to TopBar.js !*/
 
@@ -134,6 +136,7 @@ body {
 } */
 
 /*! Styles added to Header.js !*/
+
 /* .header {
   display: flex;
   justify-content: space-between;
